@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 ################################################
 
-# Place for creating the password if needed !
+# Place for creating the password if needed, here paste the code in "Password protection for JARVIS code.txt" !
 
 ################################################
 
@@ -37,41 +37,19 @@ howare = ["how are you","whats up","how you doing","how are you jarvis","How are
 name = ["what is your name","your name","do you have any name","what should i call you","Name","What is your name","What should i call you","What should I call you","name"]
 time = ["what is the time","the current time","current time","open time","show time","What is the time","The current time","Current time","Open time","Show time"]
 weather = ["what is the weather","weather report","current weather","open weather","open weather report","What is the weather","Weather report","Current weather","Open weather","Open weather report"]
-bc = ["brilliant class","brilliant class jarvis","open brilliant class","Brilliant class","Brilliant class jarvis","Open brilliant class"]
-bes = ["brilliant prmo","brilliant nsejs","brilliant scholarship","brilliant scholarships","open brilliant prmo","open brilliant nsejs","Brilliant prmo","Brilliant nsejs","Brilliant scholarship","Brilliant scholarships","Open brilliant prmo","Open brilliant nsejs"]
-be = ["brilliant exam","brilliant exams","open brilliant exam","Brilliant exam","Brilliant exams","Open brilliant exam"]
 google = ["open google","google","Open google","Google"]
 date = ["open date","what is the date","show date","Open date","What is the date","Show date"]
 calendar = ["open calendar","show calendar","Open calendar","Show calendar"]
-whatsapp = ["open whatsapp","show whatsapp","Open whatsapp","Show whatsapp"]
 news = ["open news","show news","Open news","Show news"]
 wolframalpha = ["open wolframalpha","show wolframalpha","Open wolframalpha","Show wolframalpha"]
-entertain = ["entertain me","play a song","Entertain me","Play a song"]
 youtube = ["open youtube","show youtube","Open youtube","Show youtube"]
-sandweb = ["open sand website","show sand website","Open sand website","Show sand website"]
-desmos = ["graphing calculator","open graphing calculator","show graphing calculator","Graphing calculator","Open graphing calculator","Show graphing calculator"]
-asoft = ["open soft murmur","show soft murmur","Open soft murmur","Show soft murmur"]
-wind = ["windows 93","open windows 93","show windows 93","Windows 93","Open windows 93","Show windows 93"]
-uf = ["open ultra folder","show ultra folder","Open ultra folder","Show ultra folder"]
-bluej = ["bluej","open bluej","show bluej","Bluej","Open bluej","Show bluej"]
-mac = ["mac os yellowstone","open mac os yellowstone","show mac os yellowstone","Mac os yellowstone","Open mac os yellowstone","Show mac os yellowstone"]
 introduce = ["introduce yourself","please introduce yourself","who are you","iy","Introduce yourself","Please introduce yourself","Who are you"]
-fe = ["open file explorer","show file explorer","open fe","show fe","Open file explorer","Show file explorer","Open fe","Show fe"]
 note = ["open notepad","show notepad","Open notepad","Show notepad"]
 gmail = ["open gmail","show gmail","gmail","Open gmail","Show gmail","Gmail"]
 vi = ["increase the volume","increase volume","volume increase","iv","vi","volume up","up volume","Increase the volume","Increase volume","Volume increase","Volume up","Up volume"]
 vd = ["decrease the volume","decrease volume","volume decrease","dv","vd","volume down","down volume","Decrease the volume","Decrease volume","Volume decrease","Volume down","Down volume"]
 vm = ["mute the volume","mute volume","volume mute","mv","vm","Mute the volume","Mute volume","Volume mute","mv","vm"]
 vum = ["unmute volume","unmute the volume","volume unmute","umv","vum","Unmute volume","Unmute the volume","Volume unmute","umv","vum"]
-zoom = ["open zoom","show zoom","Open zoom","Show zoom"]
-mon = ["monday's timetable","timetable of monday","monday's time table","time table of monday","Monday's timetable","Timetable of monday","Monday's time table","Time table of monday"]
-tue = ["tuesday's timetable","timetable of tuesday","tuesday's time table","time table of tuesday","Tuesday's timetable","Timetable of tuesday","Tuesday's time table","Time table of tuesday"]
-wed = ["wednesday's timetable","timetable of wednesday","wednesday's time table","time table of wednesday","Wednesday's timetable","Timetable of wednesday","Wednesday's time table","Time table of wednesday"]
-thurs = ["thursday's timetable","timetable of thursday","thursday's time table","time table of thursday","Thursday's timetable","Timetable of thursday","Thursday's time table","Time table of thursday"]
-fri = ["friday's timetable","timetable of friday","friday's time table","time table of friday","Friday's timetable","Timetable of friday","Friday's time table","Time table of friday"]
-sat = ["saturday's timetable","timetable of saturday","saturday's time table","time table of saturday","Saturday's timetable","Timetable of saturday","Saturday's time table","Time table of saturday"]
-sun = ["sunday's timetable","timetable of sunday","sunday's time table","time table of sunday","Sunday's timetable","Timetable of sunday","Sunday's time table","Time table of sunday"]
-sel = ["import selenium","get selenium","open selenium","show selenium","Import selenium","Get selenium","Open selenium","Show selenium"]
 takepicture = ["take a picture","please take a picture","take my picture please","take my picture","can you take my picture","can you take a picture","Take a picture","Please take a picture","Take my picture please","Take my picture","Can you take my picture","Can you take a picture"]
 gmailsent = ["sent gmail","sent a message","send a message","Sent gmail","Sent a message","Send a message"]
 screenshot = ["take screenshot","take a screenshot","please take a screenshot","take a screen shot","take the screenshot","take sreen shot","take the screen shot","Take screenshot","Take a screenshot","Please take a screenshot","Take a screen shot","Take the screenshot","Take sreen shot","Take the screen shot"]
@@ -82,10 +60,6 @@ print("JARVIS - The Virtual Assistant cum ChatBot in Python.\n")
 
 
 while True:
-        #pyautogui.click(1138,748)
-        #pyautogui.moveTo(296,463,duration=1)
-        #pyautogui.click(296,463)
-        #pyautogui.click(296,463)
         a = input('User - ')
         
 
@@ -143,58 +117,6 @@ while True:
                 pyautogui.moveTo(1318,373,duration=5)
                 speak.Speak("Smile Please !")
                 pyautogui.click(1318,373)
-                print("     ")
-
-        elif a.lower() in sel:
-                speak.Speak("Selenium successfully imported. Sir, what do you want to open with selenium ?")
-                print("Please enter the url of the website.")
-                x = input()
-                PATH = "C:\Program Files (x86)\msedgedriver.exe"
-                driver = webdriver.Edge(PATH)
-                driver.get(x)
-                print("     ")
-
-        elif a.lower() in mon:
-                speak.Speak("Sir, today you have Physics at 11 AM and Mathematics by Reena Tecaher at 12 PM")
-                print("Physics at 11:00 AM and Mathematics by Reena Teacher at 12:00 PM")
-                print("     ")
-
-        elif a.lower() in tue:
-                speak.Speak("Sir, today you have Geography at 10 AM and Chemistry at 11 AM")
-                print("Geography at 10:00 AM and Chemistry at 11:00 AM")
-                print("     ")
-
-        elif a.lower() in wed:
-                speak.Speak("Sir, today you have Biology at 10 AM and History at 11 AM")
-                print("Biology at 10:00 AM and History at 11:00 AM")
-                print("     ")
-
-        elif a.lower() in thurs:
-                speak.Speak("Sir, today you have Malayalam at 11 AM and Computer at 12 PM")
-                print("Malayalam at 11:00 AM and Computer at 12:00 PM")
-                print("     ")
-
-        elif a.lower() in fri:
-                speak.Speak("Sir, today you have English at 11 AM and Mathematics by A K Sir at 12 PM")
-                print("English at 11:00 AM and Mathematics by A K Sir at 12:00 PM")
-                print("     ")
-
-        elif a.lower() in sat:
-                speak.Speak("Sir, today you have Brilliant Sir ! You also have music class Sir !")
-                print("Sir, today you have Brilliant Sir ! You also have music class Sir !")
-                print("     ")
-
-        elif a.lower() in sun:
-                speak.Speak("Sir, today you may have Brilliant exam and there is also class ! You also have sunday shool.")
-                print("Sir, today you may have Brilliant exam and there is also class ! You also have sunday shool.")
-                print("     ")
-
-        elif a.lower() in zoom:
-                speak.Speak("Opening Zoom Meetings")
-                pyautogui.click(15,743)
-                # Start Button - (x=15, y=743)
-                pyautogui.typewrite("zoom")
-                pyautogui.typewrite(["enter"])
                 print("     ")
 
         elif a.lower() in hello:
@@ -275,14 +197,6 @@ while True:
                 
                 driver.quit()
 
-        elif a.lower() in fe:
-                speak.Speak("Opening File Explorer")
-                pyautogui.click(15,743)
-                # Start Button - (x=15, y=743)
-                pyautogui.typewrite("File")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
         elif a.lower() in note:
                 speak.Speak("Opening Notepad")
                 pyautogui.click(15,743)
@@ -294,30 +208,6 @@ while True:
         elif a.lower() in introduce:
                 speak.Speak("Hello ! My name is JARVIS !I am a virtual assistant cum Chatbot.I can help you automate your desktop apps and your important websites. I was made using the package 'pyautogui' without selenium and other stuff.My creator is Mr.Joel Shine, currently studying in 8th standard.I am hoping you would be very helpful with this program.With regards, Your assistant, JARVIS")
                 print("     ")
-                
-        elif a.lower() in bc:
-                speak.Speak("Opening Brilliant Classes")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("brilliantpalaclasses.com")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-                
-        elif a.lower() in bes:
-                speak.Speak("Opening Brilliant Pala NSEJS or PRMO Exams")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("jeebrilliantpalaexams.com")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in be:
-                speak.Speak("Opening Brilliant Pala Exams")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("www.palabrilliantexams.in")
-                pyautogui.typewrite(["enter"])
-                print("     ")
 
         elif a.lower() in google:
                 speak.Speak("Opening Google")
@@ -326,12 +216,12 @@ while True:
                 pyautogui.typewrite("google")
                 pyautogui.typewrite(["enter"])
                 print("     ")
-
-        elif a.lower() in whatsapp:
-                speak.Speak("Opening Whatsapp")
+                
+        elif a.lower() in gmail:
+                speak.Speak("Opening Gmail")
                 pyautogui.click(264,744)
                 pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("web.whatsapp.com")
+                pyautogui.typewrite("mail.google.com")
                 pyautogui.typewrite(["enter"])
                 print("     ")
 
@@ -343,81 +233,12 @@ while True:
                 pyautogui.typewrite(["enter"])
                 print("     ")
 
-        elif a.lower() in entertain:
-                speak.Speak("Opening Interstellar Cornfield Chase")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("https://music.youtube.com/watch?v=dkWm59GfLz4&list=RDAMVMdkWm59GfLz4")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
         elif a.lower() in youtube:
                 speak.Speak("Opening Youtube")
                 pyautogui.click(264,744)
                 pyautogui.hotkey('ctrl', 't')
                 pyautogui.typewrite("you")
                 pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in sandweb:
-                speak.Speak("Opening Sand Website")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("thisi")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in desmos:
-                speak.Speak("Opening Graphing calculator")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("desmos")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in asoft:
-                speak.Speak("Opening a soft murmur")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("asoft")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in wind:
-                speak.Speak("Opening Windows 93")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("wind")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in gmail:
-                speak.Speak("Opening Gmail")
-                pyautogui.click(264,744)
-                pyautogui.hotkey('ctrl', 't')
-                pyautogui.typewrite("mail.google.com")
-                pyautogui.typewrite(["enter"])
-                print("     ")
-
-        elif a.lower() in uf:
-                speak.Speak("Opening Ultra Folder")
-                pyautogui.click(1365,742)
-                pyautogui.click(480,26)
-                pyautogui.click(480,26)
-                print("     ")
-
-        elif a.lower() in bluej:
-                speak.Speak("Opening Bluej")
-                pyautogui.click(1365,742)
-                pyautogui.click(334,25)
-                pyautogui.click(334,25)
-                print("     ")
-
-        elif a.lower() in mac:
-                speak.Speak("Opening Mac Os Yellowstone")
-                pyautogui.click(1365,742)
-                pyautogui.click(1306,40)
-                pyautogui.click(1306,40)
                 print("     ")
 
         elif a.lower() in news:
