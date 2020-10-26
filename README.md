@@ -129,3 +129,11 @@ d ) Now we are ready to do web automation. I have used Microsoft Edge Driver for
     change the name of the "PATH" according to your browser.
     
 This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Selenium%20module%20in%20action.png
+
+**Important notice**
+
+If you want to copy my taskbar apps, I have given the screenshot of it, but, you want to find the coordinates and replace it with the code,
+I have also given the code to find the coordinates. It is in "Finding coordinates.py"
+
+Link to my taskbar screenshot - 
+Link to find the coordinates in your screen - 
