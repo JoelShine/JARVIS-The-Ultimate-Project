@@ -136,4 +136,5 @@ If you want to copy my taskbar apps, I have given the screenshot of it, but, you
 I have also given the code to find the coordinates. It is in "Finding coordinates.py" and is very easy to memorize.
 
 Link to my taskbar screenshot - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/My%20Taskbar.png
+
 Link to find the coordinates in your screen - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Finding%20coordinates.py
