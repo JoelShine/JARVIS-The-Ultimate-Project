@@ -83,9 +83,8 @@ We can change the voice, by going to the Settings. For more, please search How t
 Selenium module
 ---------------
 
-Selenium is the perfect module for web automation. Using an application called browser driver, we can 
-search on the browser without coordinates but with some id, names, class names which are in the page
-source of a webpage.
+Selenium is the perfect module for web automation. Using an application called webdriver which differs according to the browser, we can 
+search on the browser without coordinates but with some id, names, class names which are in the page source of a webpage.
 
 Selenium can be used for web scraping which means we can interact with the elements in a HTML webpage. Here we interacted with the element which was the google search bar. We wrote the code to click on the search bar and type our input there and press enter to get the search results without opening google !
 
