@@ -1,0 +1,8 @@
+Requirements
+------------------
+1 ) pyautogui - In Windows, it can be installed by "pip install pyautogui" in command prompt.
+
+2 ) selenium - In Windows, it can be installed by "pip install selenium" in command prompt.
+
+3 ) webdriver for selenium - This can be installed by searching "yourbrowsername webdriver" and
+                                                     installing it, according to the instructions in README.md about Selenium.
