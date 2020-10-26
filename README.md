@@ -133,7 +133,7 @@ This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ult
 **Important notice**
 
 If you want to copy my taskbar apps, I have given the screenshot of it, but, you want to find the coordinates and replace it with the code,
-I have also given the code to find the coordinates. It is in "Finding coordinates.py"
+I have also given the code to find the coordinates. It is in "Finding coordinates.py" and is very easy to memorize.
 
-Link to my taskbar screenshot - 
-Link to find the coordinates in your screen - 
+Link to my taskbar screenshot - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/My%20Taskbar.png
+Link to find the coordinates in your screen - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Finding%20coordinates.py
