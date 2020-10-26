@@ -18,6 +18,7 @@ this project are :
 These modules all have specific tasks in this project. For detailed explanatation, please read the following :
 
 Random module
+-------------
 
 This module is used for inserting the most basic commands given to the computer to perform specific tasks.
 For Eg: If we are asking the computer "what is the weather", we can do in many varieties like:
@@ -38,12 +39,14 @@ in the code "[]" . Then from now on if you insert any text which are already ins
 computer will detect it and give you the respective output.
 
 Datetime module
+---------------
 
 This is a very simple module as this module gives us the current date and time. You can see that from 
 the code. Another thing using this module is that this can help greet you according to the time.
 How the computer will greet you is covered in the fifth module.
 
 Pyautogui module 
+----------------
 
 Now this is the module which we uses the most. This module is used to do the desktop automation , that is
 through this module, we can do clicks, hover, scroll, or type anything without actually doing anything
@@ -62,6 +65,7 @@ automation.
 For more details, please visit - https://pyautogui.readthedocs.io/en/latest/
 
 Time module
+-----------
 
 Now, this module is mainly used in this program to pause the code. Using this, for example, if something
 takes a while to load, then we can say "time.sleep(5)" and in this case, the code stops or pauses for
@@ -74,6 +78,7 @@ a module named mac-say which is the default text to speech module for mac. There
 such as Google Speech api, pyttsx3 module etc. But in my case, only Sapi worked perfectly.
 
 Selenium module
+---------------
 
 Selenium is the perfect module for web automation. Using an application called browser driver, we can 
 search on the browser without coordinates but with some id, names, class names which are in the page
