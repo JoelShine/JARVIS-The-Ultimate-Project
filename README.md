@@ -138,3 +138,8 @@ I have also given the code to find the coordinates. It is in "Finding coordinate
 Link to my taskbar screenshot - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/My%20Taskbar.png
 
 Link to find the coordinates in your screen - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Finding%20coordinates.py
+
+If you want to add password protection, you can also add the code I have given in this link - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Password%20protection%20for%20JARVIS%20code.txt
+
+Also note, if you want this password method to work, then you need to convert it to exe using pyinstaller. Install it by pip install pyinstaller in your
+command prompt. Then type - pyinstaller "yourfile.py". You will find your exe in a folder named "dist".
