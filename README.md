@@ -72,10 +72,13 @@ takes a while to load, then we can say "time.sleep(5)" and in this case, the cod
 five seconds. For mode information, you can search about the time module.
 
 "win32com.client as wincl" module or Microsoft Sapi voice module
+----------------------------------------------------------------
 
 Now, this is a text to speech module which is default and accessible only in Windows. For Mac, there is 
 a module named mac-say which is the default text to speech module for mac. There are many other modules 
 such as Google Speech api, pyttsx3 module etc. But in my case, only Sapi worked perfectly.
+
+We can change the voice, by going to the Settings. For more, please search How to import Sapi in python.
 
 Selenium module
 ---------------
