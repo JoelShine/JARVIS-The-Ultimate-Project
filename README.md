@@ -38,12 +38,20 @@ command we use is encoded inside each type of random box which is in the square 
 in the code "[]" . Then from now on if you insert any text which are already inside these [], then the 
 computer will detect it and give you the respective output.
 
+This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Random%20module%20in%20action.png
+
 Datetime module
 ---------------
 
 This is a very simple module as this module gives us the current date and time. You can see that from 
 the code. Another thing using this module is that this can help greet you according to the time.
 How the computer will greet you is covered in the fifth module.
+
+This is a screenshot for giving current time - 
+https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Datetime%20module%20giving%20the%20current%20time.png
+
+This is a screenshot for giving current date - 
+https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Datetime%20module%20giving%20the%20current%20date.png
 
 Pyautogui module 
 ----------------
@@ -64,6 +72,8 @@ automation.
 
 For more details, please visit - https://pyautogui.readthedocs.io/en/latest/
 
+This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Pyautogui%20module%20in%20action.png
+
 Time module
 -----------
 
@@ -79,6 +89,8 @@ a module named mac-say which is the default text to speech module for mac. There
 such as Google Speech api, pyttsx3 module etc. But in my case, only Sapi worked perfectly.
 
 We can change the voice, by going to the Settings. For more, please search How to import Sapi in python.
+
+This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Microsoft%20Sapi%20module%20in%20action.png
 
 Selenium module
 ---------------
@@ -115,3 +127,5 @@ c ) After installing the webdriver, if you are windows user, go to the "Program 
 
 d ) Now we are ready to do web automation. I have used Microsoft Edge Driver for this but you can 
     change the name of the "PATH" according to your browser.
+    
+This is a screenshot from the code - https://github.com/JoelShine/JARVIS-The-Ultimate-Project/blob/main/Selenium%20module%20in%20action.png
