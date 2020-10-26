@@ -8,12 +8,12 @@ showing the time or date, opening specific websites, giving us the current weath
 desktop and start button using very simple automation and things like that. The main modules used in 
 this project are :
 
-1 )importing random (default module)
-2 )importing datetime (default module)
-3 )importing pyautogui (needed to be installed)
-4 )importing time (default module)
-5 )importing win32com.client as wincl (default module)
-6 )importing selenium (needed to be installed)
+      1 )importing random (default module)
+      2 )importing datetime (default module)
+      3 )importing pyautogui (needed to be installed)
+      4 )importing time (default module)
+      5 )importing win32com.client as wincl (default module)
+      6 )importing selenium (needed to be installed)
 
 These modules all have specific tasks in this project. For detailed explanatation, please read the following :
 
