@@ -1,5 +1,8 @@
 # JARVIS-The-Ultimate-Project
-This is a project of mine which includes all the python skills I have learnt !
+This is a project of mine which includes all the python skills I have learnt ! This is a virtual desktop as well as web assistant ! 
+The main file is JARVIS.py. (Please note speech recognition is not included ! If anyone can help me with that, 
+I would love to implement that too. The problem is portaudio in python has some problem with mine. It is saying 
+"missing parenthesis in call to print".)
 
 This project contains many modules which enhances the ability of this project. Some of the modules may 
 be only supported in Windows or in Windows 10 as I am using Windows 10 for creating this project. This 
